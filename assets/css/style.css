@@ -1,0 +1,630 @@
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/black.otf);
+}
+
+@font-face {
+    font-family: 'light';
+    src: url(../fonts/GothamBook.ttf);
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url(../fonts/medium.otf);
+}
+
+@media screen and (max-width: 1400px) {
+    .image_form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .doyoyneed_Team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .do_you_need{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+}
+ 
+
+@media screen and (max-width: 1200px){
+    .pt3 .socialmedia_trusted_learnmore{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .header_menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Menu_top{
+        margin: 20px 0px;
+    }
+
+    .socialmedia_bottomMenu_learnmore{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .Menu_bottom{
+        margin: 20px 0px;
+    }
+
+    .plans{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plans .plan1{
+        margin: 14px 20px; 
+    }
+    
+    .plans .plan2{
+        margin: 14px 20px; 
+    }
+
+    .plans .plan3{
+        margin: 14px 20px; 
+    }
+
+    .plans .plan4{
+        margin: 14px 20px; 
+    }
+
+    .plans .plan5{
+        margin: 14px 20px; 
+    }
+
+    .pt2{
+        background-size: 200%;
+    }
+
+}
+
+@media screen and (max-width: 522px){
+
+    .Menu_top ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }    
+
+    .name_lastname input{
+        margin: 30px 00px;
+    }
+
+    .Menu_bottom ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    } 
+}
+
+
+@media screen and (max-width: 600px){
+    .form .name_lastname{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .form input{
+        margin: 10px 0px;
+    }
+
+    .pt2{
+        background-size: 250%;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+        .pt2{
+        background-size: 400%;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .pt2{
+    background-size: 500%;
+    }
+}
+
+/*pt1-----------------------------------*/
+
+
+    
+
+
+.pt1{
+    background-color: #4f75c4;
+
+}
+
+.header_menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.Menu_top ul{
+    list-style: none;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+
+.Menu_top li{
+    font-family: light;
+    color: white;
+    display: inline;
+
+}
+
+header a{
+    text-decoration: none;
+    padding: 3px 10px;
+    margin: 0px 20px;
+    border: 1px solid #4f75c4;
+    border-radius: 10px;
+}
+
+header a:hover{
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.pt1 hr{
+    margin:  0;
+    color: white;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+}
+
+header button{
+    font-family: light;
+    margin: 0px 4px;
+    padding: 5px 20px;
+    color: #4f75c4;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+header button:hover{
+    background-color: rgb(240, 240, 240);
+    transition: 0.5s;
+}
+
+
+/*pt2-----------------------------------*/
+
+.pt2{
+    background-image: url(../image/bluebackground.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.say_hello h1{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 4em;
+    font-family: bold;
+    color: white;
+}
+
+.say_hello h5{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-family: light;
+    color: white;
+}
+
+
+.image_form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(141, 141, 141, 0.555);
+}
+
+.form h3{
+    font-size: 2em;
+    font-family: bold;
+    color: #244384;
+}
+
+.form input{
+    border: 2px solid #a2a2a2;
+    border-radius: 40px;
+    text-indent: 0.5em;
+    height: 50px;
+    
+}
+
+.email{
+   display: flex;
+   align-items: stretch;
+   flex-direction: column;
+}
+
+.name_lastname{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.form_buttons{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download_Priser button{
+    font-family: light;
+    background-color: #244384;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    height: 50px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+}
+
+.download_Priser button:hover{
+    background-color: #3258ac;
+    transition: 0.3s;
+}
+.Talk_to_a button{
+    font-family: light;
+    background-color: #ffffff;
+    color: #244384;
+    border: 2px solid #244384;
+    border-radius: 40px;
+    height: 50px;
+    padding: 0px 30px;
+}
+
+.Talk_to_a button:hover{
+    background-color: #f3f3f3;
+    color: #3258ac;
+    border: 2px solid #3258ac;
+    transition: 0.3s;
+}
+
+.Policy_terms h6{
+    color: #a2a2a2;
+    font-family: light;
+}
+
+.Policy_terms a{
+    text-decoration: none;
+    font-family: light;
+    color: #244384;
+    
+}
+
+.Policy_terms a:hover{
+    color: #4f75c4;
+}
+
+/*pt3 --------------------------------*/
+
+.socialmedia_trusted_learnmore{
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trusted{
+    color: #244384;
+}
+
+.trusted h2{
+    font-family: medium;
+}
+
+.trusted h5{
+    font-family: light;
+}
+
+.learn_more button{
+    font-family: light;
+    background-color: #244384;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin: 0px;
+}
+
+.learn_more button:hover{
+    background-color: #4f75c4;
+}
+    
+
+/*pt4 --------------------------------*/
+
+.pt4{
+    margin: 10px 0px;
+}
+
+.womanlaptop_Accordion{
+    background-color: #f0f6f9;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.accordion{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #244384;
+}
+
+.accordion__label, .accordion__content{
+    padding: 14px 20px;
+}
+
+.accordion__label{
+    display: block;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.1s;
+}
+
+.accordion__label:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.accordion__content{
+    background: white;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+}
+
+.accordion__input{
+    display: none;
+}
+
+.accordion__input:checked ~ .accordion__content{
+    display: block;
+}
+
+.womanlaptop_Accordion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.accordion h6{
+    font-size: 1em;
+    font-family: light;
+    color: #244384;
+}
+
+.accordion h4{
+    font-size: 1em;
+    font-family: medium;
+    color: white;
+}
+
+.accordions h2{
+    margin:0px;
+    font-size: 2em;
+    font-family: medium;
+    color: #244384;
+}
+
+.accordions h5{
+    margin:0px;
+    font-size: 1em;
+    font-family: medium;
+    color: #244384;
+}
+
+/*pt5 ------------------------------------------------------*/
+
+.pt5{
+    margin: 80px 0px;
+    background-image: linear-gradient(to right, #244384, #4f75c4);
+}
+
+.text_plans h3{
+    font-family: bold;
+    color: white;  
+}
+
+.text_plans h5{
+    margin: 30px 0px 0px 0px;
+    font-family: light;
+    color: white;
+}
+
+.plans{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.plans a{
+    text-decoration: none;
+}
+
+.plans h1{
+    font-family: bold;
+    color: black;
+}
+
+.plans h5{
+    font-family: medium;
+    color: #244384;
+}
+
+.plans h6{
+    font-family: light;
+    color: #244384;
+}
+
+.plan1, .plan2, .plan3, .plan4, .plan5{
+    margin: 0px 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.801);
+    text-align: center;
+}
+
+.plan1:hover, .plan2:hover, .plan3:hover, .plan4:hover, .plan5:hover{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.596);
+}
+
+/*pt6 ------------------------------------------*/
+
+.pt6 hr{
+    border-top: 3px solid #244384;
+}
+
+.doyoyneed_Team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.do_you_need h2, h5{
+    color: #244384;
+    font-family: medium;
+}
+
+.do_you_need h6{
+    color: #244384;
+    font-family: light;
+}
+
+.do_you_need button{
+    margin-top: 10px;
+    font-family: light;
+    background-color: #244384;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+}
+
+.do_you_need button:hover{
+    background-color: #3258ac;
+    transition: 0.3s;
+}
+
+/*pt7 -------------------------------*/
+
+.pt7{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Menu_bottom ul{
+    list-style: none;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+
+.Menu_bottom li{
+    font-family: light;
+    color: #244384;
+    display: inline;
+}
+
+.Menu_bottom a{
+    text-decoration: none;
+    padding: 3px 10px;
+    margin: 0px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.Menu_bottom a:hover{
+    border: 1px solid #244384;
+    transition: 0.3s;
+}
+
+.socialmedia_bottomMenu_learnmore{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.learn_more_bottom button{
+    font-family: light;
+    background-color: #244384;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+}
+
+.learn_more_bottom button:hover{
+    background-color: #4f75c4;
+}
+
+/*pt8 -------------------------------*/
+
+.pt8{
+    margin: 0px;
+    background-image: linear-gradient(to right, #244384, #4f75c4);
+    align-items: center;
+}
+
+.copy{
+    padding: 25px 0px;
+    color: white;
+    font-family: light;
+}
+
+.copy h6{
+    margin:0px;
+}
